@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/samarkan');
+
+main .site-content .section-banner .container .row .col-lg-6 .button-wrap .button {
+    border-radius: 20px;
+    transition: all ease 0.5s;
+}
+
+main .site-content .section-banner .container .row .col-lg-6 .button-wrap .button:hover {
+    background: transparent;
+    color: #8b1825;
+    transform: translateX(10px);
+}
+
+main .site-content .section .container .item img {
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+}
+
+main .site-content .section .container .item img:hover {
+    transform: scale(1.1);
+}
+
+.heading .heading-title,
+#top-name-brand h2 {
+    font-family: 'Samarkan', sans-serif;
+}
+
+.section .container #presidency {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section .container .block-team .swiper .swiper-wrapper .swiper-slide .inner .member-avatar {
+    transition: all ease-out 0.5s;
+    cursor: pointer;
+}
+
+.section .container .block-team .swiper .swiper-wrapper .swiper-slide .inner .member-avatar:hover {
+    transform: scale(0.95);
+}
+
+/* for form button */
+section .container .block-contact-form .row .col-lg-6:last-child .contact-form form #submit-button {
+    transition: all ease-out 0.5s;
+}
+
+section .container .block-contact-form .row .col-lg-6:last-child .contact-form form #submit-button:hover {
+    transform: scale(1.1);
+    /* background: #46e009; */
+    color: #fff;
+}

@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    position: relative;
+    font-family: 'poppins', sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(78, 136, 165);
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    box-shadow: 2px 2px 10px gray;
+    /* z-index: 999; */
+}
+
+header ul {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    /* margin: 40px 5px 5px 5x; */
+    /* background: #000; */
+    margin-top: 0.4rem;
+    list-style: none;
+}
+
+header ul li {
+    /* background: #000; */
+    margin: 10px 10px 0 0;
+    padding: 5px 12px;
+    background: #d7d7d7;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+    text-align: center;
+}
+
+header ul li:hover {
+    background: #969696;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #363636;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+
+aside {
+    background: #38a3a5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 12rem;
+    border-top-right-radius: 20px;
+    /* border-bottom-right-radius: 20px; */
+    /* box-shadow: 1px 1px 4px rgb(224, 224, 224); */
+}
+
+aside .brand {
+    margin-top: 2rem;
+    display: list-item;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+}
+
+aside .brand .brand-logo {
+    height: 2rem;
+    width: 2rem;
+}
+
+aside .brand .brand-name {
+    font-size: 20px;
+    padding: 4px;
+
+}
+
+aside ul {
+    list-style: none;
+    /* background: #000; */
+    /* margin-top: 2rem; */
+    margin: 1.2rem 0px 2px 5px;
+    /* padding: 2px; */
+}
+
+aside ul li {
+    background: #457b9d;
+    margin: 10px 0 0 -1.5rem;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition: all ease-out 0.5s;
+    box-shadow: 3px 2px 2px #fff;
+
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all ease 0.5s;
+    font-size: 16px;
+}
+
+
+aside ul li:hover {
+    transform: translateX(6px);
+}
+
+aside ul li:hover a {
+    color: #80ed99;
+}
+
+aside ul li .active {
+    color: #80ed99;
+    /* font-weight: 18px; */
+}
+
+/* start articale tag */
+article {
+    margin: 0.5rem 0.5rem 1rem 12.5rem;
+    overflow: auto;
+    width: auto;
+}
+
+article p {
+    text-align: justify;
+}
